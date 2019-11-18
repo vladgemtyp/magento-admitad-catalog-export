@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<modules>
+		<Popov_AdmitadExport>
+			<version>0.1.0</version>
+		</Popov_AdmitadExport>
+	</modules>
+	<global>
+		<helpers>
+			<popov_admitadExport>
+				<class>Popov_AdmitadExport_Helper</class>
+			</popov_admitadExport>
+		</helpers>
+	</global>
+	<catalogexport>
+		<handlers>
+			<admitad_xml>
+				<model>Popov_AdmitadExport_Model_Handler_Admitad</model>
+			</admitad_xml>
+		</handlers>
+	</catalogexport>
+</config>
